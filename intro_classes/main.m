@@ -14,6 +14,9 @@ void testFunction(alien *a)
     NSLog(@"In testFuction.  alien planet is %@", a.planet);
 }
 
+#pragma mark -
+#pragma mark main function
+
 int main(int argc, const char * argv[])
 {
 
@@ -60,6 +63,9 @@ int main(int argc, const char * argv[])
         // when you print an object, its description method is called to get a string
         NSLog(@"Here's the description: %@", sally);
         
+#pragma mark -
+#pragma mark Using arrays and objects
+        
         theAliens[0] = george;
         theAliens[1] = sally;
         
@@ -74,6 +80,8 @@ int main(int argc, const char * argv[])
         
         // an example of a regular C function in the main file
         testFunction(george);
+        
+        // random comment to test git
         
         
     }
