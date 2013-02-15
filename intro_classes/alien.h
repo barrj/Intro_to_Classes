@@ -55,5 +55,8 @@
 
 - (void) goToPlanet: (NSString *) thePlanet withDistance: (double) theDist;
 
+// note that any method not put here but put in the implementation file
+// becomes a PRIVATE method.
+
 
 @end

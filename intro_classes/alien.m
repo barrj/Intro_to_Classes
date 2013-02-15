@@ -12,6 +12,9 @@
 
 @synthesize numEyes, planet, distanceToHome;
 
+#pragma mark -
+#pragma mark initializors
+
 - (id) init
 {
     if (self = [super init])
@@ -38,6 +41,9 @@
 	return nil;
     
 }
+
+#pragma mark -
+#pragma mark instance methods
 
 // method preceded by a "-" is an instance method
 // method preceded by a "+" is a class method
