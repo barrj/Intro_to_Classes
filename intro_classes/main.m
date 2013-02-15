@@ -9,6 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "alien.h"
 
+void testFunction(alien *a)
+{
+    NSLog(@"In testFuction.  alien planet is %@", a.planet);
+}
+
 int main(int argc, const char * argv[])
 {
 
@@ -66,7 +71,10 @@ int main(int argc, const char * argv[])
             NSLog(@"george is NOT an alien (despite what you thing)");
         
         NSLog(@"george is of type %@", [alien class]);
-                
+        
+        // an example of a regular C function in the main file
+        testFunction(george);
+        
         
     }
     return 0;
