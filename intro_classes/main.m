@@ -83,7 +83,7 @@ int main(int argc, const char * argv[])
         
         // random comment to test git
         // another random comment.
-        // yeat another random comment.
+        // yet another random comment.
         
         
     }
