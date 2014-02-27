@@ -20,6 +20,7 @@
     if (self = [super init])
 	{
         numEyes = 4;
+        // all nondescript aliens are from Neptune
 		planet = @"Neptune";
         distanceToHome = 1000000;
         speedSpaceShip = 1000;

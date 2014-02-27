@@ -81,9 +81,7 @@ int main(int argc, const char * argv[])
         // an example of a regular C function in the main file
         testFunction(george);
         
-        // random comment to test git
-        // another random comment.
-        // yet another random comment.
+        NSLog(@"Sall's description is %@", theAliens[1]);
         
         
     }
