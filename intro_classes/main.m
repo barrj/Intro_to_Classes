@@ -82,7 +82,12 @@ int main(int argc, const char * argv[])
         testFunction(george);
         
         // Now print Sally
-        NSLog(@"Sall's description is %@", theAliens[1]);
+        NSLog(@"Sally's description is %@", theAliens[1]);
+        
+        alien *bill = [alien new];
+        
+        theAliens[2] = bill;
+        NSLog(@"Bill's description: %@", theAliens[2]);
         
         
     }
