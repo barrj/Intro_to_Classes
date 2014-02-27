@@ -81,6 +81,7 @@ int main(int argc, const char * argv[])
         // an example of a regular C function in the main file
         testFunction(george);
         
+        // Now print Sally
         NSLog(@"Sall's description is %@", theAliens[1]);
         
         

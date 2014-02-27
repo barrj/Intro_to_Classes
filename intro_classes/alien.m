@@ -22,6 +22,7 @@
         numEyes = 4;
         // all nondescript aliens are from Neptune
 		planet = @"Neptune";
+        // It's a long way to Neptune
         distanceToHome = 1000000;
         speedSpaceShip = 1000;
 		return (self);
