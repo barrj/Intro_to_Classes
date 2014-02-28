@@ -89,6 +89,10 @@ int main(int argc, const char * argv[])
         theAliens[2] = bill;
         NSLog(@"Bill's description: %@", theAliens[2]);
         
+        bill.numEyes = 3;
+        
+        NSLog(@"Bill has %d eyes", ((alien *)theAliens[2]).numEyes);
+        
         
     }
     return 0;
